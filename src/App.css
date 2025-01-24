@@ -1,0 +1,165 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main App Container */
+.app {
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.navbar button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #19ebeb;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar button:hover {
+  background: #358eed;
+}
+
+/* Content Section Styles */
+.content {
+  padding: 2rem;
+}
+
+/* About Section Styles */
+.about {
+  padding: 2rem;
+  background: #ffffff;
+  width: 60%; 
+  margin: 2rem auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about h2 {
+  color: #333;
+  text-align: center; 
+}
+
+.about p {
+  text-align: justify;
+  line-height: 1.6; 
+}
+
+/* Projects Section Styles */
+.projects {
+  padding: 2rem;
+  background: #f0f0f0;
+  width: 60%;
+  margin: 2rem auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+  color: #333;
+  text-align: center; 
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+/* Skills Section Styles */
+.skills {
+  padding: 2rem;
+  background: #f0f0f0;
+  width: 60%; 
+  margin: 2rem auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.skills h2 {
+  color: #333;
+  text-align: center; 
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #5f656a;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+
+/* Contact Section Styles */
+.contact {
+  background: #ffffff;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.contact h2 {
+  color: #333;
+}
+
+.contact a {
+  color: #3110f0;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
