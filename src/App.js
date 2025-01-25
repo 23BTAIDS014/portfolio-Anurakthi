@@ -1,29 +1,23 @@
-import React, { useState } from "react";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Skills from "./components/Skills";  
-import Footer from "./components/Footer";
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const [activeSection, setActiveSection] = useState("about");
-
   return (
-    <div className="app">
-      <Header />
-      <Navbar setActiveSection={setActiveSection} />
-
-      <div className="content">
-        {activeSection === "about" && <About />}
-        {activeSection === "projects" && <Projects />}
-        {activeSection === "contact" && <Contact />}
-        {activeSection === "skills" && <Skills />} 
-      </div>
-
-      <Footer />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
